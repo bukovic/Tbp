@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.03.2015., 16:55:39
+    Author     : Nikola
+*/
+
+html{
+    background-color: #FFFAF0;
+
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.3);
+}
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #4c0404;
+    background-color: #eee9e9;
+    background-size: 260px;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navigacija{
+    display: inline-block;
+    padding: 5px 5px;
+    width: 16%;
+    float: left;
+}
+.navigacija > ul {
+    list-style: none;
+    line-height: 1;
+    margin: 0;
+    padding: 10px;
+}
+.navigacija > ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 0;   
+    width: auto;   
+    padding: 6px;
+    font-weight: bold;
+    line-height: 2em;
+    color:#4c0404;
+    border-right: 1px solid #000;
+}
+.navigacija > ul li a:hover {
+    color: #ffffff;
+    background-color: #4c0404;
+}
+section#sadrzaj {
+    text-align: left;
+    padding: 5px 5px;
+    margin-left: 10px;
+    width: 70%;
+    float: left;
+    margin-bottom: 10px;
+}
+section#sadrzaj >article div a:hover{
+    color: #555555;
+}
+section#sadrzaj >article div a{
+    color: #778899;
+}
+section#sadrzaj >article img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+footer {
+    background-color: #4c0404;
+    
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+}
+footer>address a:hover{
+    color: #B4CDCD;
+}
+footer > address>a {
+    color: #ffffff;
+} 
+.gumb{
+    background: white;
+    cursor: pointer;
+    
+}
+.gumbmali{
+    background: white;
+    cursor: pointer;
+    width:13%;
+    
+}
+.gumb:hover{
+    color: white;
+    background-color: #4c0404;
+}
+form{
+   background-color: #f9f5f5;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5px;
+}
+.poljeLabel{
+    padding: 10px;
+    width:40%;
+    display: inline-block;
+    margin-left: 19%;
+    margin-right: 20%;
+}
+.polje{
+    padding: 7px;
+    display: inline-block;
+    width: 55%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.poljeSelect{
+    padding: 7px;
+    display: inline-block;
+    width: 58%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+textArea{
+    padding: 7px;
+    display: inline-block;
+    width: 55%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.inputRed{
+    padding: 7px;
+    display: inline-block;
+    width: 55%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: 6px;
+    border-color: red;
+}
+
+.inputGreen{
+    padding: 7px;
+    display: inline-block;
+    width: 55%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: 6px;
+    border-color: limegreen;
+}
+
+input#radio1{
+    width: 3%;
+    margin-right: 0;
+    display: inline;
+    padding: 7px;
+    display: inline-block;
+    margin-left: 20%;
+}
+input#radio2{
+    width: 3%;
+    margin-right: 0;
+    display: inline;
+    padding: 7px;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+
+#formaDetalji{
+    background: #f9f5f5;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 5px;
+}
+
+.detalji{
+    padding: 10px;
+    width:0%;
+    display: inline-block;
+    margin-left: 19%;
+    margin-right: 20%;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19.03.2015., 10:26:18
+    Author     : Nikola
+*/
+
+.navigacija{
+    display: inline;
+    padding: 30px;
+    width: 95%;
+}
+
+.navigacija > ul {
+    list-style: none;
+    display: inline-block;
+}
+.navigacija>ul li{
+    display: inline;
+}
+.navigacija > ul li a {
+    display: inline-block;   
+}
+section#sadrzaj {
+    text-align: left;
+    padding: 5px 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 90%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+
+
